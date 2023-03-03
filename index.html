@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="center-align">Anime Geeks</h1>
+    </div>
+    <div class="container">
+      <div class="search">
+        <form id="search-form" class="col s12">
+          <div class="search-container">
+            <div class="input-field col s6">
+              <input
+                placeholder="Search Anime "
+                name="search"
+                id="search"
+                type="text"
+                class="validate"
+                required
+              />
+              <label for="search">Search</label>
+              <button
+                class="btn waves-effect waves-light"
+                type="submit"
+                name="action"
+              >
+                Submit<i class="material-icons right"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div id="search-results" class="results"></div>
+    </div>
+    <script src="main.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
