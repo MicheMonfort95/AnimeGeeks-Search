@@ -22,7 +22,7 @@ function searchAnime(event) {
 
     searchResults.innerHTML = data.data
 
-      .sort((a, b) => a.episodes - b.episodes)
+      .sort((a, b) => a.title - b.title)
       .map((anime) => {
         return ` 
         
